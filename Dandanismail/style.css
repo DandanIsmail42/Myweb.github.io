@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* navbar */
+
+.navbar-brand{
+  font-family: monserrat;
+}
+
+
+
+/* jumbotron */
+.jumbotron-fluid{
+
+ background-image: url(img/pexels-josh-sorenson-1714208\ \(1\).jpg);
+ background-size: cover;
+ height: 640px;
+ color: antiquewhite;
+ text-align: center;
+ 
+}
+
+
+.jumbotron .display-4{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+    font-weight: 300;
+}
+
+
+.jumbotron .display-4 span{
+    font-weight: 500;
+    color: white;
+    font-size: 62px;
+    
+}
+.foto{
+    margin: auto;
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 60px;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+}
+.lead{
+    font-size: 25px;
+    font-weight: 300;
+    color: lightcyan;
+    margin-top: 25px;
+    text-shadow: rgba(0, 0, 0, 0.7);
+}
+/* info panel */
+
+.info-panel{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    margin: auto;
+    margin-top: -100px;
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+.info-panel img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.skill{
+    color: black;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+/* Utility */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+/* about */
+.container{
+    margin-top: 40px;
+    width: 90%;
+    
+}
+.container p{
+    text-align: justify;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+/* project */
+#Project{
+    margin-top: 300px;
+}
+
+.prj img{
+    
+    margin-top: 20px;
+    width: 250px;
+}
+.rpj{
+    overflow: hidden;
+}
+
+hr{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    
+}
+
+#About {
+    margin-top: 150px;
+    height: 300px;
+}
+
+/* Pesan */
+#pesan{
+    margin-top: 100px;
+}
+
+/* panah */
+.fa-arrow-up-long{
+    margin-top: 50px;
+    margin-left: 50%;
+    font-size: 60px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.fa-arrow-up-long:hover{
+    transition: 0.5s;
+    opacity: 0.4;
+}
+a i{
+    color: #d2d2d2;
+    opacity: 0.5;
+}
+/* footer */
+footer{
+    height: 80px;
+    margin-top: 100px;
+    background-color: #eee;
+    padding-left: 15px;
+}
+footer a i{
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 10px;
+    color: #666;
+}
+footer a i:hover{
+    color: burlywood;
+}
+footer p{
+    font-size: 15px;
+    font-weight: 50;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: -30px;
+}
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid red;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -7px;
+}
+.jumbotron {
+    margin-top: -100px;
+    
+}
+.navbar-brand{
+    margin-top: -40px;
+}
+.nav-item{
+    margin-top: -30px;
+}
+.navbar-brand, .nav-link{
+    color: antiquewhite !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    
+    
+}
+h1{
+    margin-top: 100px;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.prj img{
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+}
+}
